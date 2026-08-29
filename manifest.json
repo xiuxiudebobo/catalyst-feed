@@ -1,27 +1,27 @@
 {
-  "version": "0.52.0",
-  "updated": "2026-08-28",
-  "notes": "0.52.0：修复 chem-core 打包入口加载 secrets.env；更新器检查自动重试与断点续传；采用 Catalyst 自有晶格‑轨道登录标记；延续 50 个 AcademicForge 技能与 Runner SSH 自举能力。",
+  "version": "0.52.1",
+  "updated": "2026-08-29",
+  "notes": "0.52.1：修复业务失败状态呈现与 ! 命令输出截断；Runner 就绪快照加时效；更新 feed 备用源与断点续传加固；错误透传与一键重连；中文输入法 Esc 防护；键盘焦点环与对比度；设置页重排与列表骨架屏；引导链收口；上游同步（失败回合不误报完成、断线自动拉活 sidecar、预览流式 Range、配置容错与原子写入）。",
   "platforms": [
     {
       "os": "macos",
-      "version": "0.52.0",
+      "version": "0.52.1",
       "label": "macOS（Apple Silicon）",
-      "url": "/catalyst-release/Catalyst Studio_0.52.0_aarch64.dmg?v=b30c98d03428c40d",
-      "sha256": "b30c98d03428c40db38256c9741dc3ba4b98f735312767374d14aab120180faa",
-      "bytes": 195231244,
+      "url": "/catalyst-release/Catalyst Studio_0.52.1_aarch64.dmg?v=95518c45e639c609",
+      "sha256": "95518c45e639c609fa6e6ed33e7039a8ae69b62eff44bf45290e3942b7a290eb",
+      "bytes": 194073925,
       "status": "available",
-      "innerExeSha256": "c1398cc7d74bba4502c29d11acbd34d2c27e9d60513720abe16e62439fba9109"
+      "innerExeSha256": "ef67aee41c7676412fa5fe6bfebd83a47004bd86f51e6b70005c23babfeba98e"
     },
     {
       "os": "windows",
-      "version": "0.52.0",
+      "version": "0.52.1",
       "label": "Windows x64",
-      "url": "/catalyst-release/Catalyst Studio_0.52.0_x64-setup.exe?v=7aa2a6345c9120fd",
-      "sha256": "7aa2a6345c9120fde6e7e706adaae3dcc25ccdb39a1d87c290a28c2b3bd29e04",
-      "bytes": 169990009,
+      "url": "/catalyst-release/Catalyst Studio_0.52.1_x64-setup.exe?v=77f1549d77b6a9b1",
+      "sha256": "77f1549d77b6a9b1929157496d82c36e3518dda4ec410707c2b02d0411d85bab",
+      "bytes": 170036080,
       "status": "available"
     }
   ],
-  "release_notes_url": "https://github.com/xiuxiudebobo/catalyst-studio"
+  "release_notes_url": "https://github.com/xiuxiudebobo/catalyst-studio/releases/tag/v0.52.1"
 }
