@@ -1,0 +1,27 @@
+{
+  "version": "0.52.0",
+  "notes": "0.52.0：修复 chem-core 打包入口加载 secrets.env；更新器检查自动重试与断点续传；采用 Catalyst 自有晶格‑轨道登录标记；延续 50 个 AcademicForge 技能与 Runner SSH 自举能力。",
+  "pub_date": "2026-08-28T18:02:12Z",
+  "platforms": {
+    "darwin-aarch64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1UvT1V6SmhLMnpKRXdaVUZUOWRESXowbkpJbXcyRmlGTlplcFJUMnVTV0wwSXdEcVNwYlR5SGFGbFNHeTRGbk01ckhxaGxSVGFaWG5qVWRZWUxFSGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTI3NjUxCWZpbGU6Q2F0YWx5c3QgU3R1ZGlvXzAuNTIuMF9hYXJjaDY0LmFwcC50YXIuZ3oKQzFSdFB5QmVCeFFQaHNIMllmR091dC9NRTNaWitMRTliTDZOTmhSaHh1T2k5Ui9EcjJwYWZlWTliQnFObmRPM3ZmRkl1aTRiTHh0UTFxem9PcE41Q3c9PQo=",
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.0_aarch64.app.tar.gz"
+    },
+    "darwin-aarch64-app": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1UvT1V6SmhLMnpKRXdaVUZUOWRESXowbkpJbXcyRmlGTlplcFJUMnVTV0wwSXdEcVNwYlR5SGFGbFNHeTRGbk01ckhxaGxSVGFaWG5qVWRZWUxFSGdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTI3NjUxCWZpbGU6Q2F0YWx5c3QgU3R1ZGlvXzAuNTIuMF9hYXJjaDY0LmFwcC50YXIuZ3oKQzFSdFB5QmVCeFFQaHNIMllmR091dC9NRTNaWitMRTliTDZOTmhSaHh1T2k5Ui9EcjJwYWZlWTliQnFObmRPM3ZmRkl1aTRiTHh0UTFxem9PcE41Q3c9PQo=",
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.0_aarch64.app.tar.gz"
+    },
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1Z5bSttT2M5NGZJdFZDd3lHR0NSZkFKaVkreUhER2duV1pVVTFzQVJYOG5UblE3SjFxNWgrL1JoY0FqSTY3WC9Oc2ppeEI4ZndMaFRJUHJoQk5ZOVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTI5MzIxCWZpbGU6Y2F0YWx5c3QtMC41Mi4wLTU1MTQ2NTAteDY0LXNldHVwLmV4ZQpXMVgzbk9uWlpSTEdsS29hbGFaY29HSkdxR0NuTWNpUEYvMHZpVG1iN20rMGgxazF1MTVzbTJoUUxobGhiYkhJZTVQR0VqL1lhQUZSMnFBSEZzNTZBdz09Cg==",
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.0_x64-setup.exe"
+    },
+    "windows-x86_64-nsis": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1Z5bSttT2M5NGZJdFZDd3lHR0NSZkFKaVkreUhER2duV1pVVTFzQVJYOG5UblE3SjFxNWgrL1JoY0FqSTY3WC9Oc2ppeEI4ZndMaFRJUHJoQk5ZOVE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTI5MzIxCWZpbGU6Y2F0YWx5c3QtMC41Mi4wLTU1MTQ2NTAteDY0LXNldHVwLmV4ZQpXMVgzbk9uWlpSTEdsS29hbGFaY29HSkdxR0NuTWNpUEYvMHZpVG1iN20rMGgxazF1MTVzbTJoUUxobGhiYkhJZTVQR0VqL1lhQUZSMnFBSEZzNTZBdz09Cg==",
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.0_x64-setup.exe"
+    },
+    "windows-x86_64-msi": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2FvRlF2QVJLZWFUeDNCV2RmRGJIcTA3eWtZZnNjanlOV0J3bG1UYkd1TjZuTUprSEorZDUvRmNxNFkwYmJ6U3dreWxYQi82bHN3S2ZwNmVoQ2FFcEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3OTI5MzIyCWZpbGU6Y2F0YWx5c3QtMC41Mi4wLTU1MTQ2NTAteDY0LWVuLVVTLm1zaQo1SG9xb0pMOFNaZ3A4UTFmOFNXdDZMVXhUZDlpYUtNU1psMHNIWTVwSmp3SWQybnZJNkRCei9na0JTTFFJZis0TWFjUGxGd2lMNldXd1dQY3grdmFBZz09Cg==",
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.0_x64_en-US.msi"
+    }
+  }
+}
