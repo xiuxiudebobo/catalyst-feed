@@ -1,27 +1,15 @@
 {
-  "version": "0.52.1",
-  "notes": "0.52.1：修复业务失败状态呈现（工具失败改黄条警告）与 ! 命令输出 64KB 截断；Runner 就绪快照加时效，过期不再误报可达；更新 feed 增加备用源与断点续传加固。错误信息完整透传（不再显示 [object Object]），断线提供一键重连；中文输入法组合期间 Esc 不再打断会话；键盘焦点环、hover 反馈与对比度改进；设置页重排（账户、更新独立分区，Web 端桌面专属项可见但置灰）；列表加载改骨架屏；新手引导链收口。上游同步：失败回合不再误报完成、断线重试自动拉活 sidecar、预览服务器大文件流式 Range 传输、配置读写容错（损坏自动隔离）与原子写入。",
-  "pub_date": "2026-08-29T12:16:35Z",
+  "version": "1.0.2",
+  "notes": "## CatLab Studio 1.0.2\n\n**Windows** — `CatLab Studio_1.0.2_x64-setup.exe`（NSIS，双击安装）\n\n- 恢复了应用内自动更新与门户 deep-link（`catlab://` 与 `catalyst://` 都注册）。\n- 连接器/数据源在不可用时现在会显示后端给出的具体原因与下一步，而不是笼统的\"不可用\"。\n- 左下角模型状态区分\"有模型但未设默认\"与\"没有模型\"。\n- 化学运行时 56 个 MCP 工具：结构建模、超胞/掺杂/吸附变换、slab 构建、VASP 输入生成（6 种预设）、结果导入与审计。\n- POSCAR/CONTCAR 的 3D 结构视图含晶胞；OUTCAR 收敛视图仅在 VASP 自报 `reached required accuracy` 时才判定收敛。\n\n**首次使用需要配置**：联网查询、Materials Project key、飞牛知识库与 UMA 许可都是 fail-closed 的，未配置时相关能力会明确拒绝并说明原因。本版本尚未提供首次运行向导，请在 设置 → 连接器 / 科研模型 中按提示逐项配置。\n\n**客户端不会自行提交 DFT 作业**（产品红线）；UMA 权重与共享数据不随包分发，运行时连接飞牛/Runner。\n\n**未提供**：macOS 与 Linux 包（macOS 缺签名 secrets，Linux 构建待修）；门户项目接续（deep-link 会如实提示本版本尚未提供）。\n",
+  "pub_date": "2026-09-04T14:32:05Z",
   "platforms": {
-    "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2NqZDN2TWFtZmhJbVRPb0NYT2tETVdDQjZjd21jbkVuRUprY1pXTGZtRDJCTGVBRmNrQnMzRVp0eG5lNlMzSFhoQ1FERDdLK2FVRUlicWMranVnTkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDAzMTM0CWZpbGU6Q2F0YWx5c3QgU3R1ZGlvXzAuNTIuMV9hYXJjaDY0LmFwcC50YXIuZ3oKc3FYL3Y4dUNZT0pSTCtncnN3dXo3QWI3bm5QTEdlZzhITnB0Qll3THhhWWgrVnREQS9GUW1ObjViMHp2NXFsaHczdUFXVnhrZi9kMXlhdmJkK1MrQWc9PQo=",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.1_aarch64.app.tar.gz"
-    },
-    "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2NqZDN2TWFtZmhJbVRPb0NYT2tETVdDQjZjd21jbkVuRUprY1pXTGZtRDJCTGVBRmNrQnMzRVp0eG5lNlMzSFhoQ1FERDdLK2FVRUlicWMranVnTkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDAzMTM0CWZpbGU6Q2F0YWx5c3QgU3R1ZGlvXzAuNTIuMV9hYXJjaDY0LmFwcC50YXIuZ3oKc3FYL3Y4dUNZT0pSTCtncnN3dXo3QWI3bm5QTEdlZzhITnB0Qll3THhhWWgrVnREQS9GUW1ObjViMHp2NXFsaHczdUFXVnhrZi9kMXlhdmJkK1MrQWc9PQo=",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.1_aarch64.app.tar.gz"
-    },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1d5cE9CTGh1dmFzbC9NV1drN3J0NXVRYVVtOGJCSGtjVVU4YzV3WjQwelZvVjArQTBEdVdkK09Gdkp2YlR3U0hEU3dGZlkwTm84VlpSNDJNUzArdmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDA1NzQ4CWZpbGU6Q2F0YWx5c3RfU3R1ZGlvXzAuNTIuMV94NjQtc2V0dXAuZXhlCkExM3J3NS9JUnVtYXd6MHlOYzljTmVUbE1TYjVWamJ2WU5Za2NlWGhSYWRPSkxlWm5Id0hiUnhNcTFpdDluTEJpVzZjaCt5bkNMRDBXUEF5RUl3UkFRPT0K",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUY09zYkNxOUI5UmppanZ6ZGl3ODBYU2Y2WUVoT2Zkdlg0TFA1bVpHdW5EMUZLM3V2TEdiQWhoeVc5TEhqTzJEYzV6QUEyRS91WTNhMG9YMnZ6WkRaM05UQjhBY29VYkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTI4MTcwCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuMl94NjQtc2V0dXAuZXhlCmlTdVU0MjlLR1JibzZHcWVkSXBSN05VZzdleXc3RDNMRGlWbzVuMnJTQkJLM2pXNXc2ZDdqaDdta1JybEx3a3NOYVpFYkc4TXAyOStaaFd2dDBEbkJRPT0K",
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.2_x64-setup.exe"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1d5cE9CTGh1dmFzbC9NV1drN3J0NXVRYVVtOGJCSGtjVVU4YzV3WjQwelZvVjArQTBEdVdkK09Gdkp2YlR3U0hEU3dGZlkwTm84VlpSNDJNUzArdmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDA1NzQ4CWZpbGU6Q2F0YWx5c3RfU3R1ZGlvXzAuNTIuMV94NjQtc2V0dXAuZXhlCkExM3J3NS9JUnVtYXd6MHlOYzljTmVUbE1TYjVWamJ2WU5Za2NlWGhSYWRPSkxlWm5Id0hiUnhNcTFpdDluTEJpVzZjaCt5bkNMRDBXUEF5RUl3UkFRPT0K",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.1_x64-setup.exe"
-    },
-    "windows-x86_64-msi": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2VRazEyamFjZEhScFlBRGNUNGhtMzRFTmdMZmxFOUlWREhVeExZQ0cvNVE0NmxFMUxlS0V2NEFxcFFxWm53eGVKanpoZFl1TjEraUN4WE1hS0tDTWdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4MDA1NzQ4CWZpbGU6Q2F0YWx5c3RfU3R1ZGlvXzAuNTIuMV94NjRfZW4tVVMubXNpCm9BMHlnd2Nnd2YybmF2cjFlNGVndGZ0azNWQXZ4cWdXWitVQlczYisyNkU4MnVqNjl6UGU0OTdnWThUei91b0praS9Pd3ZDS3NJeTlTSlM4NTNlMEFnPT0K",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/Catalyst%20Studio_0.52.1_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUY09zYkNxOUI5UmppanZ6ZGl3ODBYU2Y2WUVoT2Zkdlg0TFA1bVpHdW5EMUZLM3V2TEdiQWhoeVc5TEhqTzJEYzV6QUEyRS91WTNhMG9YMnZ6WkRaM05UQjhBY29VYkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTI4MTcwCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuMl94NjQtc2V0dXAuZXhlCmlTdVU0MjlLR1JibzZHcWVkSXBSN05VZzdleXc3RDNMRGlWbzVuMnJTQkJLM2pXNXc2ZDdqaDdta1JybEx3a3NOYVpFYkc4TXAyOStaaFd2dDBEbkJRPT0K",
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.2_x64-setup.exe"
     }
   }
 }
