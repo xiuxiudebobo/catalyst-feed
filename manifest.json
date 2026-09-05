@@ -1,27 +1,32 @@
 {
-  "version": "0.52.1",
-  "updated": "2026-08-29",
-  "notes": "0.52.1：修复业务失败状态呈现与 ! 命令输出截断；Runner 就绪快照加时效；更新 feed 备用源与断点续传加固；错误透传与一键重连；中文输入法 Esc 防护；键盘焦点环与对比度；设置页重排与列表骨架屏；引导链收口；上游同步（失败回合不误报完成、断线自动拉活 sidecar、预览流式 Range、配置容错与原子写入）。",
+  "product": "CatLab Studio",
+  "version": "1.0.5",
+  "updated": "2026-09-06",
+  "notes": "CatLab Studio 1.0.5 — Windows 安装程序与 macOS 包同版发布；修复 Linux/旧解释器下化学内核 sidecar 打包缺陷；macOS 首次产出可验签更新包。注意：应用内「检查更新」尚未接线，请从下载页手动安装本版本。",
   "platforms": [
     {
-      "os": "macos",
-      "version": "0.52.1",
-      "label": "macOS（Apple Silicon）",
-      "url": "/catalyst-release/Catalyst Studio_0.52.1_aarch64.dmg?v=95518c45e639c609",
-      "sha256": "95518c45e639c609fa6e6ed33e7039a8ae69b62eff44bf45290e3942b7a290eb",
-      "bytes": 194073925,
-      "status": "available",
-      "innerExeSha256": "ef67aee41c7676412fa5fe6bfebd83a47004bd86f51e6b70005c23babfeba98e"
+      "id": "windows-x64-nsis",
+      "os": "windows",
+      "arch": "x64",
+      "version": "1.0.5",
+      "label": "Windows x64",
+      "url": "/catalyst-release/CatLab%20Studio_1.0.5_x64-setup.exe?v=23131185595ad7af",
+      "sha256": "23131185595ad7afd12e81f02bf8d79af2b8b8e5ef53db63ad8ef5478f757eef",
+      "bytes": 172276543,
+      "status": "available"
     },
     {
-      "os": "windows",
-      "version": "0.52.1",
-      "label": "Windows x64",
-      "url": "/catalyst-release/Catalyst Studio_0.52.1_x64-setup.exe?v=77f1549d77b6a9b1",
-      "sha256": "77f1549d77b6a9b1929157496d82c36e3518dda4ec410707c2b02d0411d85bab",
-      "bytes": 170036080,
-      "status": "available"
+      "id": "macos-aarch64",
+      "os": "macos",
+      "arch": "aarch64",
+      "version": "1.0.5",
+      "label": "macOS（Apple Silicon）",
+      "url": "/catalyst-release/CatLab%20Studio_1.0.5_aarch64.dmg?v=b931056fbedf898e",
+      "sha256": "b931056fbedf898ee3b6842d5b66f974f5c646d5918ddf8f99ed8a05b93e2b40",
+      "bytes": 162973492,
+      "status": "available",
+      "note": "未经 Apple 开发者签名与公证（项目没有开发者账号），首次需右键→打开。"
     }
   ],
-  "release_notes_url": "https://github.com/xiuxiudebobo/catalyst-studio/releases/tag/v0.52.1"
+  "release_notes_url": "https://chat.julykaoyan.xyz/catalyst-release/"
 }
