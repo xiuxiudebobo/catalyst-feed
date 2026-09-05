@@ -1,15 +1,19 @@
 {
-  "version": "1.0.2",
-  "notes": "## CatLab Studio 1.0.2\n\n**Windows** — `CatLab Studio_1.0.2_x64-setup.exe`（NSIS，双击安装）\n\n- 恢复了应用内自动更新与门户 deep-link（`catlab://` 与 `catalyst://` 都注册）。\n- 连接器/数据源在不可用时现在会显示后端给出的具体原因与下一步，而不是笼统的\"不可用\"。\n- 左下角模型状态区分\"有模型但未设默认\"与\"没有模型\"。\n- 化学运行时 56 个 MCP 工具：结构建模、超胞/掺杂/吸附变换、slab 构建、VASP 输入生成（6 种预设）、结果导入与审计。\n- POSCAR/CONTCAR 的 3D 结构视图含晶胞；OUTCAR 收敛视图仅在 VASP 自报 `reached required accuracy` 时才判定收敛。\n\n**首次使用需要配置**：联网查询、Materials Project key、飞牛知识库与 UMA 许可都是 fail-closed 的，未配置时相关能力会明确拒绝并说明原因。本版本尚未提供首次运行向导，请在 设置 → 连接器 / 科研模型 中按提示逐项配置。\n\n**客户端不会自行提交 DFT 作业**（产品红线）；UMA 权重与共享数据不随包分发，运行时连接飞牛/Runner。\n\n**未提供**：macOS 与 Linux 包（macOS 缺签名 secrets，Linux 构建待修）；门户项目接续（deep-link 会如实提示本版本尚未提供）。\n",
-  "pub_date": "2026-09-04T14:32:05Z",
+  "version": "1.0.5",
+  "notes": "CatLab Studio 1.0.5 — Windows 安装程序与 macOS 包同版发布；修复 Linux/旧解释器下化学内核 sidecar 打包缺陷；macOS 首次产出可验签更新包。注意：应用内「检查更新」尚未接线，请从下载页手动安装本版本。",
+  "pub_date": "2026-09-05T20:34:10Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUY09zYkNxOUI5UmppanZ6ZGl3ODBYU2Y2WUVoT2Zkdlg0TFA1bVpHdW5EMUZLM3V2TEdiQWhoeVc5TEhqTzJEYzV6QUEyRS91WTNhMG9YMnZ6WkRaM05UQjhBY29VYkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTI4MTcwCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuMl94NjQtc2V0dXAuZXhlCmlTdVU0MjlLR1JibzZHcWVkSXBSN05VZzdleXc3RDNMRGlWbzVuMnJTQkJLM2pXNXc2ZDdqaDdta1JybEx3a3NOYVpFYkc4TXAyOStaaFd2dDBEbkJRPT0K",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.2_x64-setup.exe"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.5_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2Z3MkttMSt3b2Y3dnhCbzB1TDJYUGJ4bmFQNTU2UU84cVpsVjhRbEV4Zmg4Wlh0WTdyUEszWUJzU3RUNkJBdGdkTWN6eDU1T2xURTZ1TGxPUlYxSlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NjM5ODY4CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuNV94NjQtc2V0dXAuZXhlCjdvcGpTRUtEQVM2K2Zoa1NKbjRYR3lyRHpKbHpWdng5N2E4eVZIS1NqQ2VxTGhaaDk1QXFENzY5Wnh3a0VhUjdTVWtPdXJSOWo0WUpiS096UEhxUUNBPT0K"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUY09zYkNxOUI5UmppanZ6ZGl3ODBYU2Y2WUVoT2Zkdlg0TFA1bVpHdW5EMUZLM3V2TEdiQWhoeVc5TEhqTzJEYzV6QUEyRS91WTNhMG9YMnZ6WkRaM05UQjhBY29VYkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NTI4MTcwCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuMl94NjQtc2V0dXAuZXhlCmlTdVU0MjlLR1JibzZHcWVkSXBSN05VZzdleXc3RDNMRGlWbzVuMnJTQkJLM2pXNXc2ZDdqaDdta1JybEx3a3NOYVpFYkc4TXAyOStaaFd2dDBEbkJRPT0K",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.2_x64-setup.exe"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.5_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2Z3MkttMSt3b2Y3dnhCbzB1TDJYUGJ4bmFQNTU2UU84cVpsVjhRbEV4Zmg4Wlh0WTdyUEszWUJzU3RUNkJBdGdkTWN6eDU1T2xURTZ1TGxPUlYxSlFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NjM5ODY4CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuNV94NjQtc2V0dXAuZXhlCjdvcGpTRUtEQVM2K2Zoa1NKbjRYR3lyRHpKbHpWdng5N2E4eVZIS1NqQ2VxTGhaaDk1QXFENzY5Wnh3a0VhUjdTVWtPdXJSOWo0WUpiS096UEhxUUNBPT0K"
+    },
+    "darwin-aarch64": {
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.5_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1IyUFZuYzc1dGtGVjJ4OWRZamo3SldlZXQrNzhBUExhajhRNCt2cmVqYzlDeXNMM0pta1RVdEprTXNzSGV3OEN6aFE1Q0F0K1NwUEJaRTdWTlNlY3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NjM4MjY3CWZpbGU6Q2F0TGFiIFN0dWRpby5hcHAudGFyLmd6CktYaytTeU9NSUwvNUVaaXFXYXgyRlFSVEdVa2V0WnRXakRvS2dWSTBRdzFqSDNLdldpYld4QmExazVyaDBoYUpjNmhHZENLNy95OVE5TURkL0RuYkNRPT0K"
     }
   }
 }
