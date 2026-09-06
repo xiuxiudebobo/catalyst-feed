@@ -1,29 +1,29 @@
 {
   "product": "CatLab Studio",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "updated": "2026-09-06",
-  "notes": "CatLab Studio 1.0.5 — Windows 安装程序与 macOS 包同版发布；修复 Linux/旧解释器下化学内核 sidecar 打包缺陷；macOS 首次产出可验签更新包。注意：应用内「检查更新」尚未接线，请从下载页手动安装本版本。",
+  "notes": "v1.0.6：应用内「检查更新」已接线，设置 → 关于 会显示当前版本、最新版本与上次检查时间；修复了设置页文案与实际行为不符（原写「通过 GitHub Releases」，成员实际拿不到私有仓）。本版仍需从下载页手动安装，自动下载与安装在后续版本接入。",
   "platforms": [
     {
       "id": "windows-x64-nsis",
       "os": "windows",
       "arch": "x64",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "label": "Windows x64",
-      "url": "/catalyst-release/CatLab%20Studio_1.0.5_x64-setup.exe?v=23131185595ad7af",
-      "sha256": "23131185595ad7afd12e81f02bf8d79af2b8b8e5ef53db63ad8ef5478f757eef",
-      "bytes": 172276543,
+      "url": "/catalyst-release/CatLab%20Studio_1.0.6_x64-setup.exe?v=de7458186ea5a724",
+      "sha256": "de7458186ea5a724bfbefd843ad4366512d4eab32268cade792a328186be1c9c",
+      "bytes": 172249784,
       "status": "available"
     },
     {
       "id": "macos-aarch64",
       "os": "macos",
       "arch": "aarch64",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "label": "macOS（Apple Silicon）",
-      "url": "/catalyst-release/CatLab%20Studio_1.0.5_aarch64.dmg?v=b931056fbedf898e",
-      "sha256": "b931056fbedf898ee3b6842d5b66f974f5c646d5918ddf8f99ed8a05b93e2b40",
-      "bytes": 162973492,
+      "url": "/catalyst-release/CatLab%20Studio_1.0.6_aarch64.dmg?v=16bab083946e69fd",
+      "sha256": "16bab083946e69fdc02a8d38c2197cfbd41594e238e774912eab1a73405d8795",
+      "bytes": 162981460,
       "status": "available",
       "note": "未经 Apple 开发者签名与公证（项目没有开发者账号），首次需右键→打开。"
     }
