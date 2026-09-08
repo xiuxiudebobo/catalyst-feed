@@ -1,29 +1,29 @@
 {
   "product": "CatLab Studio",
-  "version": "1.0.7",
-  "updated": "2026-09-07",
-  "notes": "v1.0.7：修复连接器密钥问题——已添加过的连接器现在可以直接保存 API 密钥（此前必须先移除再重新添加才能生效），保存后自动重启运行时使密钥真正被读到；缺少密钥的数据源不再显示为「已连接」，而是明确标注「缺密钥」；Windows 上密钥在重启后不再丢失。注意：若你的 Materials Project 密钥被服务端拒绝，需要换一个新密钥。",
+  "version": "1.0.8",
+  "updated": "2026-09-08",
+  "notes": "Lab data: the FAIR Chemistry licence can now be read and accepted inside the app (Settings > Models > Lab data), and shelf objects download over HTTP with SHA-256 verification - no drive mount needed on Windows. A new setup checklist shows what still waits on this machine. In-app update checks only report; they do not download or install.",
   "platforms": [
     {
       "id": "windows-x64-nsis",
       "os": "windows",
       "arch": "x64",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "label": "Windows x64",
-      "url": "/catalyst-release/CatLab%20Studio_1.0.7_x64-setup.exe?v=53904618be952eaf",
-      "sha256": "53904618be952eaf90984a4f7900a444d0d1f14b3ab16bb17517658b9e312406",
-      "bytes": 172274159,
+      "url": "/catalyst-release/CatLab%20Studio_1.0.8_x64-setup.exe?v=ca6efde6d0e04db9",
+      "sha256": "ca6efde6d0e04db9ea77a9000a11c213165c426c8e9cc453ffc7e6e48e7247f0",
+      "bytes": 172370049,
       "status": "available"
     },
     {
       "id": "macos-aarch64",
       "os": "macos",
       "arch": "aarch64",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "label": "macOS（Apple Silicon）",
-      "url": "/catalyst-release/CatLab%20Studio_1.0.7_aarch64.dmg?v=6d5814dbde0048bb",
-      "sha256": "6d5814dbde0048bb62b4eb5e995674448810671843c5f7e3f83b85be112a7530",
-      "bytes": 162983286,
+      "url": "/catalyst-release/CatLab%20Studio_1.0.8_aarch64.dmg?v=f2e21c8210b80e6c",
+      "sha256": "f2e21c8210b80e6c8e5aacf40659b9fa661a8e46bc29d62b875f49438cf1cfdb",
+      "bytes": 163120000,
       "status": "available",
       "note": "未经 Apple 开发者签名与公证（项目没有开发者账号），首次需右键→打开。"
     }
