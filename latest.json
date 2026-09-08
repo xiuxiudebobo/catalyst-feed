@@ -1,19 +1,19 @@
 {
-  "version": "1.0.7",
-  "notes": "v1.0.7：修复连接器密钥问题——已添加过的连接器现在可以直接保存 API 密钥（此前必须先移除再重新添加才能生效），保存后自动重启运行时使密钥真正被读到；缺少密钥的数据源不再显示为「已连接」，而是明确标注「缺密钥」；Windows 上密钥在重启后不再丢失。注意：若你的 Materials Project 密钥被服务端拒绝，需要换一个新密钥。",
-  "pub_date": "2026-09-06T16:00:10Z",
+  "version": "1.0.8",
+  "notes": "Lab data: the FAIR Chemistry licence can now be read and accepted inside the app (Settings > Models > Lab data), and shelf objects download over HTTP with SHA-256 verification - no drive mount needed on Windows. A new setup checklist shows what still waits on this machine. In-app update checks only report; they do not download or install.",
+  "pub_date": "2026-09-08T12:09:36Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.7_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1hqcjhzRnluU2N6Z2hmbCs1cTh2YWtma2FTb3JTdkdrYTlJSzUrS1B6bEFiUWt6dWlKbG1LYU9yWmtMT3hRNjBVN3JCcGZZaHBUVm5HY1JxSHZiQkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzA5OTUyCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuN194NjQtc2V0dXAuZXhlCnJLTUVLcEp4Q0s5WFVVUm9iY0lrNng4VklLa3ZlQnVuQk5nVHZUanh1VlZBc3NVTTlDRWEyazZUYUVOOE4wU0VSanNHTVIzSDA4aHRkaEtjdXNXeURnPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.8_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2ZGTVRVVWlvMjFmcmZBRXBHbld5V1B2a2pMaGdONkpYVGFPbW1ZRm1JU0lTWGdUVWx4dGgwSFBqU3JxcjdsWnAwYlpSeUc3YU1mdjNicUdXTmNqSUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODA0MTM1CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuOF94NjQtc2V0dXAuZXhlClhVUVJ6bmNVTG8zWUZ2Rmw0aXRza2RNd2lRRVdza0ZYOWo1YjhLNU1iRlc0T2RhVFQ5S0JzUWR1ci9sRjkwc01XRE82Wlh4a2lpQjJmK3ByMG5PQ0NRPT0K"
     },
     "windows-x86_64-nsis": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.7_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1hqcjhzRnluU2N6Z2hmbCs1cTh2YWtma2FTb3JTdkdrYTlJSzUrS1B6bEFiUWt6dWlKbG1LYU9yWmtMT3hRNjBVN3JCcGZZaHBUVm5HY1JxSHZiQkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzA5OTUyCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuN194NjQtc2V0dXAuZXhlCnJLTUVLcEp4Q0s5WFVVUm9iY0lrNng4VklLa3ZlQnVuQk5nVHZUanh1VlZBc3NVTTlDRWEyazZUYUVOOE4wU0VSanNHTVIzSDA4aHRkaEtjdXNXeURnPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.8_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2ZGTVRVVWlvMjFmcmZBRXBHbld5V1B2a2pMaGdONkpYVGFPbW1ZRm1JU0lTWGdUVWx4dGgwSFBqU3JxcjdsWnAwYlpSeUc3YU1mdjNicUdXTmNqSUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODA0MTM1CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuOF94NjQtc2V0dXAuZXhlClhVUVJ6bmNVTG8zWUZ2Rmw0aXRza2RNd2lRRVdza0ZYOWo1YjhLNU1iRlc0T2RhVFQ5S0JzUWR1ci9sRjkwc01XRE82Wlh4a2lpQjJmK3ByMG5PQ0NRPT0K"
     },
     "darwin-aarch64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.7_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2VHcTVpUDZ6dWljQyt0TnJmVS80WDQveVQ5d0hNWWRDL1d3L0ZyZUpEVXh2aWtqTXl0VkRZblhhTFNObEZkOVZCZnZVQUQ1NWlqOGRPTFhUSmp2dGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4NzA4NDI4CWZpbGU6Q2F0TGFiIFN0dWRpby5hcHAudGFyLmd6CkFieVFwMWE4ZlVSVzVnbDRwZnR4K1VzZExiUFF4dVladlZsNmY3WTBsYlYrakF5VmUyN1Brcm5YR0dqeGNoZ1l1bmlOQzI4Sm1EWXFkRTgvbEhPK0NBPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.8_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1pFKzI0bDJTZU56ZTVQMkdSUS8rTzdkK2oxZTVwYm12NnovOGxhTk5WQWZUM1FSL0V3b1FzMUk0OEp5RGo5dmlVZFNoT2d0dTh5QktqWGk3bCtCNmdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg4ODAyNzIxCWZpbGU6Q2F0TGFiIFN0dWRpby5hcHAudGFyLmd6ClVNdGlQN0FubmtJcXN1anpmSDlINk14ajBpMGsrcldvb1JvOFM0MkF1a2lqL010TWluZFdIQmxscVp5eUhVOFlMb2Ixb3RJN2RKQU0vS3FXR0svaER3PT0K"
     }
   }
 }
