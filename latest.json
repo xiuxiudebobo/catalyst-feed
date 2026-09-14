@@ -1,19 +1,19 @@
 {
-  "version": "1.1.2",
-  "notes": "1.1.2 is a visual/auth rebuild: plated-cat mark, compact lab-account card (accent, not green), vendor marks, in-app updater download-and-install, and matching device-authorize pages. Windows setup is unsigned (SmartScreen: More info → Run anyway). macOS is ad-hoc signed, not Developer ID-notarized.",
-  "pub_date": "2026-09-14T01:02:14Z",
+  "version": "1.1.3",
+  "notes": "FAIR Chemistry sidecar uses shipped license texts; Settings checks and installs the signed update in-app (quiet NSIS); Windows icon has rounded corners; Origin/Illustrator/COMSOL plan-then-QA before delivery.",
+  "pub_date": "2026-09-14T09:47:17Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1UrcjNJalRPQU00UVMyQldGYlFPVCtkK3RVQ0NtSHJqT096OUliTmloVTYwaVF0MEo1YTJuN29haEowdnhSMjRpdnovYW15aDlLZVlrNG9haFhNWFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ3NjE3CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuMl94NjQtc2V0dXAuZXhlCmZkWER4S1hDVmQvTHp3Q2JTVkoyQWJXeTdpbVM4L2tHbGFSNU9kL1BjcW1YWVNuY0ZBM0FwZVVIc1pzcWpDaE9CRTBkQTc3YUlqNG4wOWpYNGhOM0FnPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.3_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1dnUEdxWG5MMmtaWTl0dGxHTlZWMFc2SUhlM2NCWXBnMkk4Qis2VFhaQzFvTitrRTgwbzNpUDRIRTdJaFBZcDBZNGNqL0lNNkVEMkIyRTNvUFNIYkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc3NTY0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuM194NjQtc2V0dXAuZXhlCnpDbzVLK2J4T1JOZWJ0YWFNelF5eUpzczBRSk4rdzZrdGxUWFkvb2lNWkt6bk5EZjN3ZzFTREdBaGhVNldBT3RrM3Q0TE1jbkdpNy82LzljTFdxcUJnPT0K"
     },
     "windows-x86_64-nsis": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.2_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1UrcjNJalRPQU00UVMyQldGYlFPVCtkK3RVQ0NtSHJqT096OUliTmloVTYwaVF0MEo1YTJuN29haEowdnhSMjRpdnovYW15aDlLZVlrNG9haFhNWFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ3NjE3CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuMl94NjQtc2V0dXAuZXhlCmZkWER4S1hDVmQvTHp3Q2JTVkoyQWJXeTdpbVM4L2tHbGFSNU9kL1BjcW1YWVNuY0ZBM0FwZVVIc1pzcWpDaE9CRTBkQTc3YUlqNG4wOWpYNGhOM0FnPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.3_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1dnUEdxWG5MMmtaWTl0dGxHTlZWMFc2SUhlM2NCWXBnMkk4Qis2VFhaQzFvTitrRTgwbzNpUDRIRTdJaFBZcDBZNGNqL0lNNkVEMkIyRTNvUFNIYkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc3NTY0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuM194NjQtc2V0dXAuZXhlCnpDbzVLK2J4T1JOZWJ0YWFNelF5eUpzczBRSk4rdzZrdGxUWFkvb2lNWkt6bk5EZjN3ZzFTREdBaGhVNldBT3RrM3Q0TE1jbkdpNy82LzljTFdxcUJnPT0K"
     },
     "darwin-aarch64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.2_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1dlUkhBTEMvSjM1Q0lUY0tzMHlXcjB2MUo0VUV4di9UTWo3OWFuR2V0QWh0UEVYM2Vnb1ZxOXVVQ3NjYThnRjd1OXF0MmtiYWkwUEhBU3RKN1RHa2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ3NjE4CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuMl9hYXJjaDY0LmFwcC50YXIuZ3oKQXdpUEtVK0s0bHRVRnIzcTdTNExUM2M2NzBxTVVZVTVyWEY1VVdKQSt3d2FVbmFYVXJNeTVsZXhHRlhScE9SVm5rcUVqV1dqeWhtZkJmVkJmQ0Y2QUE9PQo="
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.3_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2VmRmRBZXp1UlcySTNBL3FsOENpMGhtempiUmljM24veXpmRGpsRDYxVUNrWXo1bFpOamhzZWhqdzR6MEVIZFNJc0ZDQkJ6YkxicmYrRHZqbktrVkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzY0ODY4CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuM19hYXJjaDY0LmFwcC50YXIuZ3oKTHNxWHY1TmpFZmdiQlMvUWx5bE9UUjd2c0pQc2FwVDJ1cGpNaWg3Tm92aW5HbndLTkdkcTRWcnhINzRITlhKU1F3eU5vcG1QYndUMEczeFQxalh2REE9PQo="
     }
   }
 }
