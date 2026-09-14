@@ -2,7 +2,7 @@
   "product": "CatLab Studio",
   "version": "1.1.2",
   "updated": "2026-09-14",
-  "notes": "1.1.2 is a visual/auth rebuild: plated-cat mark, compact lab-account card (accent, not green), vendor marks, in-app updater download-and-install, and matching device-authorize pages. Windows setup is unsigned (SmartScreen: More info → Run anyway). macOS is ad-hoc signed, not Developer ID-notarized. In-app updater remains on 1.0.9 until signed artifacts exist.",
+  "notes": "1.1.2 is a visual/auth rebuild: plated-cat mark, compact lab-account card (accent, not green), vendor marks, in-app updater download-and-install, and matching device-authorize pages. Windows setup is unsigned (SmartScreen: More info → Run anyway). macOS is ad-hoc signed, not Developer ID-notarized.",
   "platforms": [
     {
       "id": "windows-x64-nsis",
@@ -25,7 +25,7 @@
       "sha256": "cd89ea4e21a120301ada7e58b55f84f1dced74a144f855a9833c96e0504f6a7c",
       "bytes": 163747305,
       "status": "available",
-      "note": "已做本地 ad-hoc 签名，但未经 Apple Developer ID 签名与公证；首次需右键→打开。"
+      "note": "未经 Apple 开发者签名与公证（项目没有开发者账号），首次需右键→打开。"
     }
   ],
   "release_notes_url": "https://chat.julykaoyan.xyz/catalyst-release/"
