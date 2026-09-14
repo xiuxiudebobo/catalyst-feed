@@ -1,31 +1,31 @@
 {
   "product": "CatLab Studio",
-  "version": "1.0.8",
-  "updated": "2026-09-08",
-  "notes": "Lab data: the FAIR Chemistry licence can now be read and accepted inside the app (Settings > Models > Lab data), and shelf objects download over HTTP with SHA-256 verification - no drive mount needed on Windows. A new setup checklist shows what still waits on this machine. In-app update checks only report; they do not download or install.",
+  "version": "1.1.2",
+  "updated": "2026-09-14",
+  "notes": "1.1.2 is a visual/auth rebuild: plated-cat mark, compact lab-account card (accent, not green), vendor marks, in-app updater download-and-install, and matching device-authorize pages. Windows setup is unsigned (SmartScreen: More info → Run anyway). macOS is ad-hoc signed, not Developer ID-notarized. In-app updater remains on 1.0.9 until signed artifacts exist.",
   "platforms": [
     {
       "id": "windows-x64-nsis",
       "os": "windows",
       "arch": "x64",
-      "version": "1.0.8",
+      "version": "1.1.2",
       "label": "Windows x64",
-      "url": "/catalyst-release/CatLab%20Studio_1.0.8_x64-setup.exe?v=ca6efde6d0e04db9",
-      "sha256": "ca6efde6d0e04db9ea77a9000a11c213165c426c8e9cc453ffc7e6e48e7247f0",
-      "bytes": 172370049,
+      "url": "/catalyst-release/CatLab%20Studio_1.1.2_x64-setup.exe?v=0c03c5802d1e89e9",
+      "sha256": "0c03c5802d1e89e92c9f6f52649d57b1ee5cc03c5bde5b0fd4d375b89d55e4bc",
+      "bytes": 173247035,
       "status": "available"
     },
     {
       "id": "macos-aarch64",
       "os": "macos",
       "arch": "aarch64",
-      "version": "1.0.8",
+      "version": "1.1.2",
       "label": "macOS（Apple Silicon）",
-      "url": "/catalyst-release/CatLab%20Studio_1.0.8_aarch64.dmg?v=f2e21c8210b80e6c",
-      "sha256": "f2e21c8210b80e6c8e5aacf40659b9fa661a8e46bc29d62b875f49438cf1cfdb",
-      "bytes": 163120000,
+      "url": "/catalyst-release/CatLab%20Studio_1.1.2_aarch64.dmg?v=cd89ea4e21a12030",
+      "sha256": "cd89ea4e21a120301ada7e58b55f84f1dced74a144f855a9833c96e0504f6a7c",
+      "bytes": 163747305,
       "status": "available",
-      "note": "未经 Apple 开发者签名与公证（项目没有开发者账号），首次需右键→打开。"
+      "note": "已做本地 ad-hoc 签名，但未经 Apple Developer ID 签名与公证；首次需右键→打开。"
     }
   ],
   "release_notes_url": "https://chat.julykaoyan.xyz/catalyst-release/"
