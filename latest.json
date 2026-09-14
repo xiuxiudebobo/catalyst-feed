@@ -1,35 +1,19 @@
 {
-  "version": "1.0.9",
-  "notes": "## CatLab Studio 1.0.9\n\nThis release focuses on reliable daily use for the lab, especially on Windows.\n\n### What changed\n\n- Prompts can be queued while the current turn keeps running; sending the next instruction no longer interrupts active work.\n- Failed tool calls are recoverable and no longer leave the conversation permanently stuck.\n- Team-managed MCP and knowledge services are configured automatically after platform sign-in; only services that truly require a personal key still ask for one.\n- Settings and first-run readiness were simplified, including clearer UMA licence/setup status, data-source state, compute-node boundaries, and fewer redundant setup banners.\n- Model and sub-agent controls now follow the platform model catalogue and support per-agent model selection. GPT-6 Astra metadata includes its 1,050,000-token context window and adjustable reasoning effort.\n- CatLab branding and icons were refreshed across the Windows/macOS app and the web download/API surfaces.\n\n### Install and first launch\n\n**Windows** — download `CatLab.Studio_1.0.9_x64-setup.exe`. It installs per user and does not require administrator rights. If SmartScreen appears, choose **More info → Run anyway**. Install over the existing version to retain sessions and settings.\n\n**macOS (Apple Silicon, macOS 13+)** — open the DMG and drag **CatLab Studio** into Applications. This build is ad-hoc signed because the project has no Apple Developer account; it is not Developer ID-signed or notarized. On first launch, right-click the app and choose **Open**, or run `xattr -dr com.apple.quarantine '/Applications/CatLab Studio.app'`.\n\nIn-app update checks report that a newer version exists; they do not install it automatically.\n",
-  "pub_date": "2026-09-10T04:09:53.371Z",
+  "version": "1.1.2",
+  "notes": "1.1.2 is a visual/auth rebuild: plated-cat mark, compact lab-account card (accent, not green), vendor marks, in-app updater download-and-install, and matching device-authorize pages. Windows setup is unsigned (SmartScreen: More info → Run anyway). macOS is ad-hoc signed, not Developer ID-notarized.",
+  "pub_date": "2026-09-14T01:02:14Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2JzWS9EckNYd1hGRVVaK2VGVGwxZkppekI5emVUL2RuTVd0Wi83SkFZM1c5aWZXcU5HZldUclkrU05XOW9pUFlEQmd4SDNyMFl5eFpwdXVHNGFQSEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDEzMjY0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuOV94NjQtc2V0dXAuZXhlCkEvbTJxZUFkYTdzQnl6b2QyVTB5cWc3OWMrM1VZN3ZLSWRyWnJJSS9sY1dFeEdHbTRzS3REVm51Mkp5TG4zeXNNVEY2MEZ2ci9FTnFCNU5pOGpEWkJnPT0K",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.9_x64-setup.exe"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1UrcjNJalRPQU00UVMyQldGYlFPVCtkK3RVQ0NtSHJqT096OUliTmloVTYwaVF0MEo1YTJuN29haEowdnhSMjRpdnovYW15aDlLZVlrNG9haFhNWFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ3NjE3CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuMl94NjQtc2V0dXAuZXhlCmZkWER4S1hDVmQvTHp3Q2JTVkoyQWJXeTdpbVM4L2tHbGFSNU9kL1BjcW1YWVNuY0ZBM0FwZVVIc1pzcWpDaE9CRTBkQTc3YUlqNG4wOWpYNGhOM0FnPT0K"
     },
     "windows-x86_64-nsis": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2JzWS9EckNYd1hGRVVaK2VGVGwxZkppekI5emVUL2RuTVd0Wi83SkFZM1c5aWZXcU5HZldUclkrU05XOW9pUFlEQmd4SDNyMFl5eFpwdXVHNGFQSEE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDEzMjY0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuOV94NjQtc2V0dXAuZXhlCkEvbTJxZUFkYTdzQnl6b2QyVTB5cWc3OWMrM1VZN3ZLSWRyWnJJSS9sY1dFeEdHbTRzS3REVm51Mkp5TG4zeXNNVEY2MEZ2ci9FTnFCNU5pOGpEWkJnPT0K",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.0.9_x64-setup.exe"
-    },
-    "linux-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1lvYkcvVC9QOXlLMFE5REFnSmtlYTdMb3hCeVVtOFpESmFwbjhLUXBvOTZHeTBlTlkrUm9rN0RLSm1HcmVETGtSWGlGZkpkaWJ2RFVldFphNlVubEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDEzMzc3CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuOV9hbWQ2NC5kZWIKSkMzc2kxUDdaNXM0ZnBKcUVBQkV6SmNoVWxuRjhybW1JTzY1V2FrWEhQVytiR0NBcEVBZGJNY3g5RDFHeFJoZFVqL1dEKyttbUM4Z2pBelNud2RFRGc9PQo=",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab.Studio_1.0.9_amd64.deb"
-    },
-    "linux-x86_64-deb": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1lvYkcvVC9QOXlLMFE5REFnSmtlYTdMb3hCeVVtOFpESmFwbjhLUXBvOTZHeTBlTlkrUm9rN0RLSm1HcmVETGtSWGlGZkpkaWJ2RFVldFphNlVubEFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDEzMzc3CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjAuOV9hbWQ2NC5kZWIKSkMzc2kxUDdaNXM0ZnBKcUVBQkV6SmNoVWxuRjhybW1JTzY1V2FrWEhQVytiR0NBcEVBZGJNY3g5RDFHeFJoZFVqL1dEKyttbUM4Z2pBelNud2RFRGc9PQo=",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab.Studio_1.0.9_amd64.deb"
-    },
-    "linux-x86_64-rpm": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1lvL2RCL3BwdzEwU2h3Q1JGVkNMUlBrTU5pYklaSHFzcDc1bDA0Y0V6WXdNV0lPMGs3eUk1N095OFUwR3dnL1N5aDRicFptSnFtRDQvTmZ6ZVpUQVE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDEzMzc3CWZpbGU6Q2F0TGFiIFN0dWRpby0xLjAuOS0xLng4Nl82NC5ycG0KeXlaYXI2YWFZbVltNTg1N2F2cWJNOTF2MjV4bFRqS3FFbFczTGRiNWlrVjM3TjJmY053UVdPUVIrQXpucHpCamwycTAzSzlYVVh4bnFzanRMM2dlQUE9PQo=",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab.Studio-1.0.9-1.x86_64.rpm"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.2_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1UrcjNJalRPQU00UVMyQldGYlFPVCtkK3RVQ0NtSHJqT096OUliTmloVTYwaVF0MEo1YTJuN29haEowdnhSMjRpdnovYW15aDlLZVlrNG9haFhNWFE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ3NjE3CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuMl94NjQtc2V0dXAuZXhlCmZkWER4S1hDVmQvTHp3Q2JTVkoyQWJXeTdpbVM4L2tHbGFSNU9kL1BjcW1YWVNuY0ZBM0FwZVVIc1pzcWpDaE9CRTBkQTc3YUlqNG4wOWpYNGhOM0FnPT0K"
     },
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1N3TVlFTTFDVWhWTXdxWXNQZHBEYytIbVFiS2l6eXNVY0IzRUF6OElQOENIQ2NpWVlyajBOQWVJcEdlSWlXQ3UrRHBCVmJyZ3hYWWk1UTRhV0VCUlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDI1MzI4CWZpbGU6Q2F0TGFiIFN0dWRpb19hYXJjaDY0LmFwcC50YXIuZ3oKSVRtVElPRW5DMExKb1V2ckY2SFM3Q3FzeC9kSURBUHoxOHVVNU56S3dzYXR0bmp6NGVaOXJTdS9iQkx0SzhKNUFXcXJLZ1FQQWRqc2xEWkdRWnU1QkE9PQo=",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab.Studio_aarch64.app.tar.gz"
-    },
-    "darwin-aarch64-app": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1N3TVlFTTFDVWhWTXdxWXNQZHBEYytIbVFiS2l6eXNVY0IzRUF6OElQOENIQ2NpWVlyajBOQWVJcEdlSWlXQ3UrRHBCVmJyZ3hYWWk1UTRhV0VCUlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MDI1MzI4CWZpbGU6Q2F0TGFiIFN0dWRpb19hYXJjaDY0LmFwcC50YXIuZ3oKSVRtVElPRW5DMExKb1V2ckY2SFM3Q3FzeC9kSURBUHoxOHVVNU56S3dzYXR0bmp6NGVaOXJTdS9iQkx0SzhKNUFXcXJLZ1FQQWRqc2xEWkdRWnU1QkE9PQo=",
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab.Studio_aarch64.app.tar.gz"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.2_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1dlUkhBTEMvSjM1Q0lUY0tzMHlXcjB2MUo0VUV4di9UTWo3OWFuR2V0QWh0UEVYM2Vnb1ZxOXVVQ3NjYThnRjd1OXF0MmtiYWkwUEhBU3RKN1RHa2dVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzQ3NjE4CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuMl9hYXJjaDY0LmFwcC50YXIuZ3oKQXdpUEtVK0s0bHRVRnIzcTdTNExUM2M2NzBxTVVZVTVyWEY1VVdKQSt3d2FVbmFYVXJNeTVsZXhHRlhScE9SVm5rcUVqV1dqeWhtZkJmVkJmQ0Y2QUE9PQo="
     }
   }
 }
