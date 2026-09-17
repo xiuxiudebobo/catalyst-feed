@@ -1,19 +1,19 @@
 {
-  "version": "1.1.3",
-  "notes": "FAIR Chemistry sidecar uses shipped license texts; Settings checks and installs the signed update in-app (quiet NSIS); Windows icon has rounded corners; Origin/Illustrator/COMSOL plan-then-QA before delivery.",
-  "pub_date": "2026-09-14T09:47:17Z",
+  "version": "1.1.4",
+  "notes": "Live overlay names Local GPU / Remote Runner / Converging as campaign stops; switch models inside a conversation without resetting helper roles. Lab shelf is the online working copy.",
+  "pub_date": "2026-09-17T18:08:23Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.3_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1dnUEdxWG5MMmtaWTl0dGxHTlZWMFc2SUhlM2NCWXBnMkk4Qis2VFhaQzFvTitrRTgwbzNpUDRIRTdJaFBZcDBZNGNqL0lNNkVEMkIyRTNvUFNIYkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc3NTY0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuM194NjQtc2V0dXAuZXhlCnpDbzVLK2J4T1JOZWJ0YWFNelF5eUpzczBRSk4rdzZrdGxUWFkvb2lNWkt6bk5EZjN3ZzFTREdBaGhVNldBT3RrM3Q0TE1jbkdpNy82LzljTFdxcUJnPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.4_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1V4THR5TXdqaUVmcmVXdnordjFaM0QzSFhwUzBsOGV2N1M4KzBadnVQNUZrMDNmUzFOMHAvNUl0YTdUMFpwdHhhdXd4bytCdFN3VktzYjhlcDhNRWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjY4MDU0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNF94NjQtc2V0dXAuZXhlCnNNYUZzcjMwMXFMMGdCVXA1NDR0RU9Qa0VjZ0c4TXRtc1BDSFlDaGxnaDRTZVhMKzV2NjVKY0l3OFo1RzkwdHdlZ0Q4Z2ZOL2xsQXBLd2VsdGpWTkNnPT0K"
     },
     "windows-x86_64-nsis": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.3_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1dnUEdxWG5MMmtaWTl0dGxHTlZWMFc2SUhlM2NCWXBnMkk4Qis2VFhaQzFvTitrRTgwbzNpUDRIRTdJaFBZcDBZNGNqL0lNNkVEMkIyRTNvUFNIYkE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5Mzc3NTY0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuM194NjQtc2V0dXAuZXhlCnpDbzVLK2J4T1JOZWJ0YWFNelF5eUpzczBRSk4rdzZrdGxUWFkvb2lNWkt6bk5EZjN3ZzFTREdBaGhVNldBT3RrM3Q0TE1jbkdpNy82LzljTFdxcUJnPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.4_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1V4THR5TXdqaUVmcmVXdnordjFaM0QzSFhwUzBsOGV2N1M4KzBadnVQNUZrMDNmUzFOMHAvNUl0YTdUMFpwdHhhdXd4bytCdFN3VktzYjhlcDhNRWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjY4MDU0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNF94NjQtc2V0dXAuZXhlCnNNYUZzcjMwMXFMMGdCVXA1NDR0RU9Qa0VjZ0c4TXRtc1BDSFlDaGxnaDRTZVhMKzV2NjVKY0l3OFo1RzkwdHdlZ0Q4Z2ZOL2xsQXBLd2VsdGpWTkNnPT0K"
     },
     "darwin-aarch64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.3_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2VmRmRBZXp1UlcySTNBL3FsOENpMGhtempiUmljM24veXpmRGpsRDYxVUNrWXo1bFpOamhzZWhqdzR6MEVIZFNJc0ZDQkJ6YkxicmYrRHZqbktrVkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5MzY0ODY4CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuM19hYXJjaDY0LmFwcC50YXIuZ3oKTHNxWHY1TmpFZmdiQlMvUWx5bE9UUjd2c0pQc2FwVDJ1cGpNaWg3Tm92aW5HbndLTkdkcTRWcnhINzRITlhKU1F3eU5vcG1QYndUMEczeFQxalh2REE9PQo="
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.4_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1lNQkxUNktSa0pveVZBWnlNSStLWVlucFdPbGdrd2lJZEtZTWlteUFKZ2F1RS96YXpMR1NOajV4dm5kODRKYmExSjFRK0NUblptSXViVG1kNmhBSUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjY4NDMyCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNF9hYXJjaDY0LmFwcC50YXIuZ3oKd1o2bmVKay9DdTREL3VxemJvekFiUk5LMUkvb0k5MzlhMzR5Zk0yTGtZdTVXU1NVUmdQdjREcTY0eWhDelcrRHhadW9qWnhkcXBtK2dXOUZMSEdGRFE9PQo="
     }
   }
 }
