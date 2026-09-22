@@ -1,31 +1,27 @@
 {
   "product": "CatLab Studio",
-  "version": "1.1.4",
-  "updated": "2026-09-18",
-  "notes": "Live overlay names Local GPU / Remote Runner / Converging as campaign stops; switch models inside a conversation without resetting helper roles. Lab shelf is the online working copy.",
+  "version": "1.1.5",
+  "updated": "2026-09-22",
+  "notes": "1.1.5：长思考不再被 30 秒读超时掐断——流式中断会明确报错，不再静默截断或误显示「已停止」。计算实时监视合并升级：悬浮圆点显示已运行时间与任务类型（弛豫 ION／静态 SCF／机器学习 ML），进度环只画当前这一趟；任务卡按类型分色，进度条绑定对应计数（弛豫看离子步、静态看电子步），作业条与标题同名不再重复列另一步。另含 TLS 桥 gzip 修复、历史会话窗口、登录态失效可见化、启动重启守卫、侧栏点击开新屏、安装包品牌化。",
   "platforms": [
     {
       "id": "windows-x64-nsis",
       "os": "windows",
       "arch": "x64",
-      "version": "1.1.4",
+      "version": "1.1.5",
       "label": "Windows x64",
-      "url": "/catalyst-release/CatLab%20Studio_1.1.4_x64-setup.exe?v=651164147158617e",
-      "sha256": "651164147158617eb62e2bd0af78881a8307c689423364e181b37f19747c9339",
-      "bytes": 169382579,
+      "url": "/catalyst-release/CatLab%20Studio_1.1.5_x64-setup.exe?v=1890c3a8a07dc048",
+      "sha256": "1890c3a8a07dc0487c5c6ab59897d6784616769d7ba7b9c4741299c70f57f282",
+      "bytes": 173597754,
       "status": "available"
     },
     {
       "id": "macos-aarch64",
       "os": "macos",
       "arch": "aarch64",
-      "version": "1.1.4",
       "label": "macOS（Apple Silicon）",
-      "url": "/catalyst-release/CatLab%20Studio_1.1.4_aarch64.dmg?v=d8e3303055ca4787",
-      "sha256": "d8e3303055ca4787dc0f8be7771e5005e8d5a543a8799ae3f26d6923680717c7",
-      "bytes": 159470481,
-      "status": "available",
-      "note": "未经 Apple 开发者签名与公证（项目没有开发者账号），首次需右键→打开。"
+      "status": "unavailable",
+      "note": "macOS 版暂停更新，目前只出 Windows；已装上的 Mac 用户留在当前版本即可。"
     }
   ],
   "release_notes_url": "https://chat.julykaoyan.xyz/catalyst-release/"
