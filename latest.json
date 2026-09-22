@@ -1,19 +1,15 @@
 {
-  "version": "1.1.4",
-  "notes": "Live overlay names Local GPU / Remote Runner / Converging as campaign stops; switch models inside a conversation without resetting helper roles. Lab shelf is the online working copy.",
-  "pub_date": "2026-09-17T18:08:23Z",
+  "version": "1.1.5",
+  "notes": "1.1.5：长思考不再被 30 秒读超时掐断——流式中断会明确报错，不再静默截断或误显示「已停止」。计算实时监视合并升级：悬浮圆点显示已运行时间与任务类型（弛豫 ION／静态 SCF／机器学习 ML），进度环只画当前这一趟；任务卡按类型分色，进度条绑定对应计数（弛豫看离子步、静态看电子步），作业条与标题同名不再重复列另一步。另含 TLS 桥 gzip 修复、历史会话窗口、登录态失效可见化、启动重启守卫、侧栏点击开新屏、安装包品牌化。",
+  "pub_date": "2026-09-22T08:57:48Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.4_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1V4THR5TXdqaUVmcmVXdnordjFaM0QzSFhwUzBsOGV2N1M4KzBadnVQNUZrMDNmUzFOMHAvNUl0YTdUMFpwdHhhdXd4bytCdFN3VktzYjhlcDhNRWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjY4MDU0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNF94NjQtc2V0dXAuZXhlCnNNYUZzcjMwMXFMMGdCVXA1NDR0RU9Qa0VjZ0c4TXRtc1BDSFlDaGxnaDRTZVhMKzV2NjVKY0l3OFo1RzkwdHdlZ0Q4Z2ZOL2xsQXBLd2VsdGpWTkNnPT0K"
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.5_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2N6Wi95REZpUVhmbkxidEttcXUzNkFZTFlFWlF5NW5pVUxGbnluR3MzZ3lPZ29TSXlFSXl6V1Y4cmJhbFFtTnZNT29zcjBEa3VacjVTZ2Q4WUdMV2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDY3MzMxCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNV94NjQtc2V0dXAuZXhlClpIZUwwWXRoSExaQTl0QjB4N1RReWZoRHlBYXF0ZHRvVW1nNGVKRU9lTG8zeWJyMXl2VzNEM0xQODlSQ0VKcDEwSFRlSHR3eE5yRlJrVWhwSzhoa0NRPT0K"
     },
     "windows-x86_64-nsis": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.4_x64-setup.exe",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1V4THR5TXdqaUVmcmVXdnordjFaM0QzSFhwUzBsOGV2N1M4KzBadnVQNUZrMDNmUzFOMHAvNUl0YTdUMFpwdHhhdXd4bytCdFN3VktzYjhlcDhNRWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjY4MDU0CWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNF94NjQtc2V0dXAuZXhlCnNNYUZzcjMwMXFMMGdCVXA1NDR0RU9Qa0VjZ0c4TXRtc1BDSFlDaGxnaDRTZVhMKzV2NjVKY0l3OFo1RzkwdHdlZ0Q4Z2ZOL2xsQXBLd2VsdGpWTkNnPT0K"
-    },
-    "darwin-aarch64": {
-      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.4_aarch64.app.tar.gz",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR1lNQkxUNktSa0pveVZBWnlNSStLWVlucFdPbGdrd2lJZEtZTWlteUFKZ2F1RS96YXpMR1NOajV4dm5kODRKYmExSjFRK0NUblptSXViVG1kNmhBSUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjY4NDMyCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNF9hYXJjaDY0LmFwcC50YXIuZ3oKd1o2bmVKay9DdTREL3VxemJvekFiUk5LMUkvb0k5MzlhMzR5Zk0yTGtZdTVXU1NVUmdQdjREcTY0eWhDelcrRHhadW9qWnhkcXBtK2dXOUZMSEdGRFE9PQo="
+      "url": "https://chat.julykaoyan.xyz/catalyst-release/CatLab%20Studio_1.1.5_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUZElzcGhMSFFVR2N6Wi95REZpUVhmbkxidEttcXUzNkFZTFlFWlF5NW5pVUxGbnluR3MzZ3lPZ29TSXlFSXl6V1Y4cmJhbFFtTnZNT29zcjBEa3VacjVTZ2Q4WUdMV2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMDY3MzMxCWZpbGU6Q2F0TGFiIFN0dWRpb18xLjEuNV94NjQtc2V0dXAuZXhlClpIZUwwWXRoSExaQTl0QjB4N1RReWZoRHlBYXF0ZHRvVW1nNGVKRU9lTG8zeWJyMXl2VzNEM0xQODlSQ0VKcDEwSFRlSHR3eE5yRlJrVWhwSzhoa0NRPT0K"
     }
   }
 }
